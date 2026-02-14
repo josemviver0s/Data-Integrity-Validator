@@ -36,14 +36,15 @@ Ideal for form validation, registration systems, or any scenario requiring clean
 ---
 
 ## 🏗️ Project Structure
+
 data-integrity-validator/
 ├── src/
-│ ├── Main.java # Application entry point with menu
-│ ├── Validator.java # Static validation methods (regex)
-│ └── Registro.java # Entity class with Builder pattern
+│   ├── Main.java # Application entry point with menu
+│   ├── Validator.java # Static validation methods (regex)
+│   └── Registro.java # Entity class with Builder pattern
 ├── screenshots/ # Screenshots for documentation
-│ ├── menu.png
-│ ├── validation-errors.png
-│ ├── success.png
-│ └── registrations-list.png
+│   ├── menu.png
+│   ├── validation-errors.png
+│   ├── success.png
+│   └── registrations-list.png
 └── README.md # This file
