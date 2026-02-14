@@ -48,3 +48,29 @@ data-integrity-validator/
 │   ├── success.png
 │   └── registrations-list.png
 └── README.md # This file
+
+---
+
+## 📋 Validation Rules
+
+| Field | Validation Rule | Example |
+|-------|----------------|---------|
+| **Name** | Cannot be empty or only spaces | "Juan Pérez" ✅ <br> "   " ❌ |
+| **Email** | Must contain @ and valid format | "usuario@dominio.com" ✅ <br> "usuario.com" ❌ |
+| **Age** | Integer between 18 and 99 | 25 ✅ <br> 15 ❌ <br> 100 ❌ |
+| **Phone** | 7–15 digits, accepts +, spaces, hyphens | "+57 123 4567" ✅ <br> "abc" ❌ |
+| **ZIP Code** | Exactly 5 digits | "12345" ✅ <br> "1234" ❌ <br> "ABCDE" ❌ |
+
+---
+
+## ▶️ How to Run
+
+### Prerequisites
+- Java JDK 17 or higher
+- Any Java IDE (IntelliJ, VS Code, Eclipse) or terminal
+
+### Steps
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/data-integrity-validator.git
